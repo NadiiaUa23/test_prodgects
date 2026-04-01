@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Hotel O Camiño: alojamiento boutique en Durango con restaurante propio, reservas 24h y experiencia local." />
+  <title>Hotel O Camiño</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-group">
+      <a href="index.html" class="brand-link hotel-logo">Hotel O Camiño</a>
+    </div>
+    <nav class="main-nav" aria-label="Navegación principal">
+      <a href="#home">Inicio</a>
+      <a href="#rooms">Habitaciones</a>
+      <a href="#experience">Experiencia</a>
+      <a href="#gallery">Galería</a>
+      <a href="#contact">Contacto</a>
+      <a href="reservas.html" class="btn btn-alt">Reservar</a>
+    </nav>
+    <button class="menu-toggle" aria-expanded="false" aria-label="Abrir menú">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero hero-home">
+      <div class="hero-content">
+        <p class="eyebrow">Hotel boutique en Durango</p>
+        <h1>Tu refugio moderno con sabor local</h1>
+        <p>Descubre habitaciones luminosas, un restaurante de autor y una experiencia que combina confort con autenticidad vasca.</p>
+        <div class="hero-actions">
+          <a href="#rooms" class="btn btn-primary">Ver habitaciones</a>
+          <a href="reservas.html" class="btn btn-alt">Reservar ahora</a>
+        </div>
+      </div>
+
+      <aside class="hero-card reservation-panel">
+        <h2>Buscar disponibilidad</h2>
+        <form class="reservation-form" action="#" novalidate>
+          <label>
+            Tipo de reserva
+            <select name="type" required>
+              <option value="hotel">Hotel O Camiño</option>
+              <option value="restaurant">Asador Botafumeiro</option>
+            </select>
+          </label>
+          <label>
+            Fecha entrada
+            <input type="date" name="checkin" required />
+          </label>
+          <label>
+            Fecha salida
+            <input type="date" name="checkout" required />
+          </label>
+          <label>
+            Huéspedes
+            <input type="number" name="guests" min="1" value="2" required />
+          </label>
+          <button type="submit" class="btn btn-primary">Consultar disponibilidad</button>
+        </form>
+      </aside>
+    </section>
+
+    <section class="section-intro">
+      <div class="section-copy">
+        <h2>Una estancia cuidada en cada detalle</h2>
+        <p>En Hotel O Camiño combinamos la tradición local con espacios cálidos, servicio atento y una experiencia auténtica en Durango.</p>
+      </div>
+      <div class="benefits-grid">
+        <article class="card">
+          <h3>Check-in 24h</h3>
+          <p>Flexibilidad para llegadas fuera de horario y acceso seguro durante todo el día.</p>
+        </article>
+        <article class="card">
+          <h3>Restaurante propio</h3>
+          <p>Asador Botafumeiro ofrece cocina de producto local en un ambiente cálido y contemporáneo.</p>
+        </article>
+        <article class="card">
+          <h3>Ubicación ideal</h3>
+          <p>Situado cerca de la estación y de los principales puntos turísticos de Durango.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="rooms" class="cards-row">
+      <h2>Habitaciones destacadas</h2>
+      <div class="room-grid">
+        <article class="room-card">
+          <h3>Habitación doble</h3>
+          <p>Con cama matrimonial, baño privado y detalles luminosos para un descanso tranquilo.</p>
+          <a href="hotel.html" class="btn btn-alt">Ver más</a>
+        </article>
+        <article class="room-card">
+          <h3>Suite familiar</h3>
+          <p>Espacio para familias con sala privada y una atmósfera acogedora.</p>
+          <a href="hotel.html" class="btn btn-alt">Ver más</a>
+        </article>
+        <article class="room-card">
+          <h3>Habitación superior</h3>
+          <p>Con jacuzzi privado y comodidades premium para una experiencia especial.</p>
+          <a href="reservas.html" class="btn btn-alt">Reservar</a>
+        </article>
+      </div>
+    </section>
+
+    <section id="experience" class="feature-split">
+      <div>
+        <h2>Vive la experiencia</h2>
+        <p>Disfruta rutas locales, descanso de calidad y una propuesta que combina confort con autenticidad vasca.</p>
+        <p>Nuestro equipo te ayuda a planificar paseos, recomendaciones gastronómicas y una estancia personalizada.</p>
+      </div>
+      <div>
+        <h2>Restaurante Botafumeiro</h2>
+        <p>Sabores de temporada, carnes a la brasa y un entorno ideal para cenas en pareja o encuentros familiares.</p>
+        <a href="restaurant.html" class="btn btn-primary">Descubrir restaurante</a>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <h2>Galería</h2>
+      <div class="gallery-grid">
+        <div class="gallery-item">Habitación doble</div>
+        <div class="gallery-item">Cenas en el asador</div>
+        <div class="gallery-item">Ambiente relajante</div>
+      </div>
+    </section>
+
+    <section class="testimonial-section">
+      <h2>Lo que dicen nuestros huéspedes</h2>
+      <div class="testimonial-grid">
+        <article class="testimonial-card">
+          <p>“Una estancia impecable, con un restaurante fantástico y una atención muy amable.”</p>
+          <strong>María, España</strong>
+        </article>
+        <article class="testimonial-card">
+          <p>“Perfecto para un fin de semana en Durango. La habitación era muy cómoda y la ubicación ideal.”</p>
+          <strong>David, Francia</strong>
+        </article>
+        <article class="testimonial-card">
+          <p>“El check-in 24h fue muy conveniente, y la cena en el asador superó nuestras expectativas.”</p>
+          <strong>Ana, México</strong>
+        </article>
+      </div>
+    </section>
+
+    <section id="contact" class="about-panel">
+      <div>
+        <h2>Contacto y ubicación</h2>
+        <p>Estamos en la calle Camino Real, a pocos pasos de los puntos de interés de Durango.</p>
+        <p>Teléfono: <a href="tel:+34944123456">+34 944 123 456</a></p>
+        <p>Email: <a href="mailto:info@hotelocamino.com">info@hotelocamino.com</a></p>
+        <a href="ubicacion.html" class="btn btn-primary">Ver ubicación</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span>Hotel O Camiño</span>
+      <span>Asador Botafumeiro</span>
+    </div>
+    <div class="footer-nav">
+      <a href="#rooms">Habitaciones</a>
+      <a href="#experience">Experiencia</a>
+      <a href="reservas.html">Reservar</a>
+    </div>
+    <div class="contact-info">
+      <p>Recepción 24h</p>
+      <p>+34 944 123 456</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservas - Hotel O Camiño</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="brand-group">
+      <a href="index.html" class="brand-link hotel-logo">Hotel O Camiño</a>
+    </div>
+    <nav class="main-nav">
+      <a href="ubicacion.html">¿Dónde estamos?</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="reservas.html" class="btn btn-alt">Reservas</a>
+    </nav>
+    <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+  </header>
+
+  <section class="hero hero-reservas">
+    <div class="hero-content">
+      <p class="eyebrow">Reservas</p>
+      <h1>Planifica tu estancia o tu cena</h1>
+      <p>Elige habitación o mesa y completa tu reserva de forma rápida y segura.</p>
+    </div>
+  </section>
+
+  <section class="reservation-panel">
+    <div class="form-card">
+      <h2>Reserva ahora</h2>
+      <form action="#" class="reservation-form">
+        <label>
+          Tipo de reserva
+          <select>
+            <option>Hotel O Camiño</option>
+            <option>Asador Botafumeiro</option>
+          </select>
+        </label>
+        <label>
+          Nombre completo
+          <input type="text" placeholder="Tu nombre" />
+        </label>
+        <label>
+          Fecha
+          <input type="date" />
+        </label>
+        <label>
+          Personas
+          <input type="number" min="1" value="2" />
+        </label>
+        <label>
+          Comentarios
+          <textarea placeholder="Necesidades especiales"></textarea>
+        </label>
+        <button type="submit" class="btn btn-primary">Enviar solicitud</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="services-panel">
+    <h2>Ayuda rápida</h2>
+    <ul class="services-list">
+      <li>Confirmamos tu reserva en menos de 24h</li>
+      <li>Cambio flexible de horario</li>
+      <li>Asistencia telefónica disponible</li>
+    </ul>
+  </section>
+
+  <footer class="site-footer">
+    <div class="footer-brand">
+      <span>Hotel O Camiño</span>
+      <span>Asador Botafumeiro</span>
+    </div>
+    <div class="footer-nav">
+      <a href="ubicacion.html">¿Dónde estamos?</a>
+      <a href="nosotros.html">Nosotros</a>
+      <a href="reservas.html">Reservas</a>
+    </div>
+    <div class="contact-info">
+      <p>Horario: 08:00 - 23:00</p>
+      <p>Teléfono: +34 944 123 456</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

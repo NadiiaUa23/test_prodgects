@@ -1,0 +1,78 @@
+Ти получил три параметра. На их основе ті  должен самостоятельно генерировать редизайн  сайта.
+Название бизнеса : Hotel O Camiño и Asador Botafumeiro.
+Цвет бренда отеля - #B1A486, ресторанна - #0F3F34.
+Создай полноценній сайт из шести страниц.
+Требование:
+ На первой странице содержит дла логотипа двух бизнеса отеля - Hotel O Camiño и ресторанна Asador Botafumeiro. 
+ На єтой странице должно біть социальніе сети у каждого инстаграм, гугл, фейсбук. при нажатии на логотип переход на главную страницу отеля или переход на главную страницу ресторана.на єтой странице нету хедер и нету футера.
+На последующих страницах они есть.
+хиро имеет два логотипа Hotel O Camiño и asador-botafumeiro , навигационное меню:
+ ¿Dónde estamos?
+Nosotros, 
+Reservas - єто кнопка.
+футер простой , два логотипа, навигационное меню часі работі и номер телефона.
+Вторая страница назіваетца Hotel O Camiño
+, в ней должго біть хедер с заголовком центрированнім :Hotel O Camiño
+Descubre el encanto de Durango.
+Следующая секция : 
+En O Camino, tenemos como objetivo proporcionarte una estancia cómoda y memorable en nuestras 29 habitaciones, donde te sientas como en casa.
+En nuestro hotel entendemos que cada huésped es único, por lo que contamos con una amplia variedad de habitaciones para adaptarnos a tus necesidades. Ya sea que viajes solo, en pareja o en familia, encontrarás el espacio perfecto para descansar y relajarte.
+Nuestras habitaciones están cuidadosamente diseñadas para brindarte confort y tranquilidad. Disfrutarás de camas espaciosas, habitaciones luminosas y todas las comodidades modernas que necesites para una estancia agradable.
+¡Te invitamos a visitarnos y descubrir la comodidad y calidad que ofrecemos en Durango!
+и кнопка с Reserva ahora
+
+Следующая секция: 
+Las habitaciones
+Individuales y dobles
+Tanto nuestras habitaciones individuales,
+como las habitaciones dobles, ofrecen un ambiente espacioso y acogedor. Perfecto para viajes de negocios u ocio, en solitario o en compañía.
+Triples
+Nuestras habitaciones triples son perfectas para aquellas personas que buscan viajar en grupo o en familia. Estas amplias habitaciones ofrecen luminosidad y espacio suficiente para alojar a tres personas cómodamente.
+Espacio cuádruple
+Contamos con un espacio cuádruple, donde dos habitaciones de la planta principal pueden permanecer abiertas o cerradas, creando una puerta corredera como puerta principal. Ideal para familias o dos parejas.
+Следующая секция : 
+Suite
+En nuestro hotel podrás disfrutar de habitaciones cómodas y acogedoras que se adaptarán a tus necesidades.
+Suite tiene con cama XL, un baño espacioso con ducha y está diseñada para aquellas personas que buscan más espacio y confort.
+Al estar situada en la planta baja del hotel, es apta y de fácil acceso para minusválidos.
+¡Un espacio para poder descansar y relajarse con más privacidad y sentirse como en casa!
+¿Quieres combinarla con un desayuno?
+¡En nuestro restaurante tenemos muchas opciones!
+
+Следующая секция 
+Jacuzzi
+Una de nuestras habitaciones dobles cuenta con un Jacuzzi para una máxima relajación.
+Diferentes luces y especialmente diseñada con chorros de agua que proporcionan un masaje relajante.
+Este dispositivo hidromasaje se llena con agua caliente y puedes pedirnos una bomba de olor hidratante de aromaterapia, para que los jets direccionales disparen el agua a diferentes niveles de intensidad y presión, brindando un efecto terapéutico en el cuerpo.
+El jacuzzi es ideal para aliviar el estrés, relajar los músculos y promover la circulación sanguínea. Es un lugar perfecto para disfrutar de un baño relajante y renovador.
+
+Следующая секция галерея фотографий отеля.
+
+Следующая секция : 
+Conoce más sobre Hotel O Camiño
+En Hotel O Camiño queremos que te sientas como en casa. Por eso, nuestro hotel está disponible las 24 horas. Además, nos encontramos en el corazón de Durango, cerca de los principales atractivos turísticos. ¡Te esperamos!
+.
+¡Nunca fue tan facil hacer un check-in!
+Si necesitas entrar a una hora inusual o salir antes de que estemos en recepción, no pasa nada gracias a nuestra maquina automática situada en la entrada del hotel.
+En pocos pasos podrás realizar tu check-in tanto si tienes realizada una reserva, como si necesitas una habitación en el momento. Cuenta con el proceso de identificación de los huéspedes, escaneo de la documentación y la entrega o duplicados de llaves del hotel.
+Следующая секция Servicios
+Wifi
+TV
+Parking exterior de pago
+Check-in
+sin esperas
+Jacuzzi
+Servicio de taxi
+Climatización
+Restaurante
+Servicio
+24 horas
+
+Следующая секция : Nosotros (которая переходит на страницу одноименную)
+Conoce nuestra historia єто кнопка перехода .
+
+Требование к дизайнеру:адаптив под мобильніе, планшетніе и десктоп. Плавніе анимациипоявления и hover'єфекті. 
+Цвета бренда используютца во всех секция. Професиональная типографика.
+Стек: HTML,css, java script, ,без фреймворков.
+Не использівать никакие установленніе скили.Работать только на основе єтого промпта.
+не используй никакие файлі в проекте пока что .
